@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=DrawableShape
+comment1.params=shape\ strokeWidth\ strokeColor
+comment1.target=DrawableShape(java.awt.Shape,\ int,\ java.awt.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DrawableShape\r\n
+comment2.params=shape\ fillColor
+comment2.target=DrawableShape(java.awt.Shape,\ java.awt.Color)
+comment3.params=
+comment3.target=java.awt.Shape\ getShape()
+comment4.params=
+comment4.target=java.awt.Stroke\ getStroke()
+comment5.params=
+comment5.target=java.awt.Color\ getStrokeColor()
+comment6.params=
+comment6.target=java.awt.Color\ getFillColor()
+comment7.params=strokeWidth\ strokeColor
+comment7.target=void\ setStroke(int,\ APCSColor)
+comment8.params=fillColor
+comment8.target=void\ setFillColor(APCSColor)
+numComments=9

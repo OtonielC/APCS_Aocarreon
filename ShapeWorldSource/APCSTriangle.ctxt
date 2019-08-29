@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=APCSTriangle
+comment1.params=firstX\ firstY\ secondX\ secondY\ thirdX\ thirdY
+comment1.target=APCSTriangle(int,\ int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ APCSTriangle\r\n
+numComments=2

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=APCSLine
+comment1.params=startX\ startY\ endX\ endY
+comment1.target=APCSLine(int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ APCSLine\r\n
+numComments=2

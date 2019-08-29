@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=ShapeWorld
+comment1.params=width\ height
+comment1.target=ShapeWorld(int,\ int)
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ Create\ the\ GUI\ and\ show\ it.\ \ For\ thread\ safety,\r\n\ this\ method\ should\ be\ invoked\ from\ the\r\n\ event-dispatching\ thread.\r\n
+comment3.params=line
+comment3.target=void\ addLine(APCSLine)
+comment4.params=drawableShape
+comment4.target=void\ addDrawableShape(DrawableShape)
+comment5.params=rectangle
+comment5.target=void\ addRectangle(APCSRectangle)
+comment6.params=circle
+comment6.target=void\ addCircle(APCSCircle)
+comment7.params=triangle
+comment7.target=void\ addTriangle(APCSTriangle)
+numComments=8

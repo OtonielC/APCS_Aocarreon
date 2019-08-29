@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FirstClass
+comment0.text=\r\n\ \r\n\r\n\ @author\ (Oats)\r\n\ @version\ (815)\r\n
+comment1.params=
+comment1.target=FirstClass()
+comment2.params=
+comment2.target=void\ main()
+comment3.params=name
+comment3.target=void\ MyName(java.lang.String)
+numComments=4

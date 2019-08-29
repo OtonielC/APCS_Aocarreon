@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=APCSCircle
+comment1.params=centerX\ centerY\ radius
+comment1.target=APCSCircle(int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ APCSCircle\r\n
+numComments=2

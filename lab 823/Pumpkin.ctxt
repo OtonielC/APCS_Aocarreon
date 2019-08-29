@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pumpkin
+comment0.text=\r\n\ \r\n\r\n\ @author\ (Oats)\r\n\ @version\ (821)\r\n
+comment1.params=r\ id
+comment1.target=Pumpkin(double,\ int)
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=
+comment3.target=double\ getRadius()
+numComments=4
