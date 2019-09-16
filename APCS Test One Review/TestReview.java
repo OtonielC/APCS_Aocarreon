@@ -1,4 +1,4 @@
-
+//I DIDNT HAVE A COMPUTER TO FINISH PLS EXCUSE :(((
 /**
  * Write a description of class TestReview here.
  *
@@ -26,11 +26,11 @@ public class TestReview
     }
     int count = 0;
     int num = 12345;
-    public int counter(){
-        while(num > 0){
-              
-        }
-    }
+    //public int counter(){
+      //  while(num > 0){
+      //        return 
+      //  }
+    //}
     
     public void TestReview(){
         //1.
