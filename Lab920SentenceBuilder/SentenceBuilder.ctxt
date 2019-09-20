@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SentenceBuilder
+comment0.text=\r\n\ Big\ Chonk\r\n\r\n\ @author\ (oats)\r\n\ @version\ (920)\r\n
+comment1.params=
+comment1.target=java.lang.String\ randomNoun()
+comment2.params=
+comment2.target=java.lang.String\ randomVerb()
+comment3.params=
+comment3.target=java.lang.String\ randomAdverb()
+comment4.params=
+comment4.target=java.lang.String\ randomAdjective()
+comment5.params=
+comment5.target=java.lang.String\ randomDeterminer()
+comment6.params=
+comment6.target=java.lang.String\ randomPreposition()
+numComments=7
