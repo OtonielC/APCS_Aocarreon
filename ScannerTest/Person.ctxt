@@ -2,7 +2,5 @@
 comment0.target=Person
 comment0.text=\r\n\ Runner\ for\ Scanner\ Test\r\n\r\n\ @author\ (Oats)\r\n\ @version\ (924)\r\n
 comment1.params=fullName
-comment1.target=void\ parseName(java.lang.String)
-comment2.params=fullName
-comment2.target=Person(java.lang.String)
-numComments=3
+comment1.target=Person(java.lang.String)
+numComments=2
