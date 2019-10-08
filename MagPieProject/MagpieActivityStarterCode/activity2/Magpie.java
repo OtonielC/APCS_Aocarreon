@@ -60,15 +60,6 @@ public class Magpie
         else if(statement.indexOf() >= 0){
             response = "";
         }
-                else if(statement.indexOf() >= 0){
-            response = "";
-        }
-                else if(statement.indexOf() >= 0){
-            response = "";
-        }
-                else if(statement.indexOf() >= 0){
-            response = "";
-        }
         else
         {
             response = getRandomResponse();
