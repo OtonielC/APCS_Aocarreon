@@ -27,4 +27,23 @@ public class TestCorrections
         }
         return count;
     }
+    
+    public void ques9(){
+        for(int i = 0; i < 4;i++){
+            for(int j = 0; j<=i ; j++){
+                System.out.print("X ");
+            }
+            System.out.println();
+        }
+    }
+    
+    public int digitsSum(int num, int x){ // the last question
+        int count = 0;
+        while(num > 0){
+            x = num % 10;
+            count += x;
+            num = num/10;
+        }
+        return count;
+    }
 }
