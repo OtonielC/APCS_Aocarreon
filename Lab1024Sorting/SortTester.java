@@ -10,13 +10,15 @@ public class SortTester
     ArrayList<Integer> numList = new ArrayList<Integer>();
     public SortTester(){
         loadNumbers(10);
-        System.out.print("not sorted list");
+        System.out.println("not sorted list ");
         for(int i = 0; i < numList.size(); i++){
             System.out.print(" " + numList.get(i));
         }
+        System.out.println();
         //selectionSort();
-        bubbleSort(numList);
-        System.out.print("This is the sorted list");
+        //bubbleSort();
+        insertionSort();
+        System.out.println("This is the sorted list");
         for(int i = 0; i < numList.size(); i++){
             System.out.print(" " + numList.get(i));
         }
@@ -29,7 +31,7 @@ public class SortTester
         }
     }
     
-    public void bubbleSort(ArrayList<Integer> numList){
+    public void bubbleSort(){
         int n = numList.size();
         int temp = 0;
         for(int i = n-1; i > 0; i--){
@@ -66,7 +68,16 @@ public class SortTester
     //---------------------------------------------------------------------------
     
     public void insertionSort(){
-        
+        int temp;
+        for(int i = 0; i < numList.size(); i++){
+            int j = i;
+            while((j > 0) && numList.get(j) < numList.get(j-1)){
+                temp = numList.get(j);
+                numList.set(j, numList.get(j-1));
+                numList.set(j-1, temp);
+                j -= 1;
+            }
+        }
     }
     
     
