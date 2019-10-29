@@ -7,10 +7,11 @@ import java.util.*;
  */
 public class StudentList
 {
-    ArrayList<Integer> numlist = new ArrayList<Integer>();
+    ArrayList<Integer> studlist = new ArrayList<Integer>();
     public StudentList(){
         add();
         delete();
+        edit();
         print();
         search();
         clear();
@@ -25,6 +26,10 @@ public class StudentList
         
     }
     
+    public void edit(){
+        
+    }
+    
     public void print(){
         
     }
@@ -35,5 +40,9 @@ public class StudentList
     
     public void clear(){
         
+    }
+    
+    public static void main(){
+        StudentList studlist = new StudentList();
     }
 }
