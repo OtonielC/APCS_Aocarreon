@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=StringCheck
+comment0.text=\r\n\ Checks\ For\ key\ string\ in\ array\r\n\r\n\ @author\ (Oats)\r\n\ @version\ (10/31)\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

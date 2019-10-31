@@ -1,14 +1,14 @@
 import java.util.*;
 /**
- * Write a description of class StudentList here.
+ * Student Project
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Oats)
+ * @version (10/31)
  */
-public class StudentList
+public class StudList
 {
     ArrayList<Integer> studlist = new ArrayList<Integer>();
-    public StudentList(){
+    public StudList(){
         add();
         delete();
         edit();
@@ -43,6 +43,6 @@ public class StudentList
     }
     
     public static void main(){
-        StudentList studlist = new StudentList();
+        StudList studlist = new StudList();
     }
 }

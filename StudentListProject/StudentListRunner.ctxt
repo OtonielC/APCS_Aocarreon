@@ -2,15 +2,5 @@
 comment0.target=StudentListRunner
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ StudentListRunner\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=StudentListRunner()
-comment2.params=
-comment2.target=void\ add()
-comment3.params=
-comment3.target=void\ delete()
-comment4.params=
-comment4.target=void\ print()
-comment5.params=
-comment5.target=void\ search()
-comment6.params=
-comment6.target=void\ clear()
-numComments=7
+comment1.target=void\ main()
+numComments=2
