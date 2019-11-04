@@ -1,6 +1,12 @@
 #BlueJ class context
 comment0.target=StringCheck
 comment0.text=\r\n\ Checks\ For\ key\ string\ in\ array\r\n\r\n\ @author\ (Oats)\r\n\ @version\ (10/31)\r\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment1.params=
+comment1.target=StringCheck()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=str\ key
+comment3.target=java.lang.String[]\ wordChecker(java.util.ArrayList,\ java.lang.String)
+comment4.params=str\ key
+comment4.target=java.util.ArrayList\ wordChecker(java.lang.String[],\ java.lang.String)
+numComments=5
