@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Corrections
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ corrections\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Corrections()
+comment2.params=nums
+comment2.target=java.util.ArrayList\ makeList(int[])
+comment3.params=nums
+comment3.target=int[]\ reverseList(java.util.ArrayList)
+comment4.params=
+comment4.target=void\ main()
+numComments=5

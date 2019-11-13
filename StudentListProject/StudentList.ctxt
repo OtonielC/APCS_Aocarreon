@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=StudentList
+comment0.text=\r\n\ Student\ Project\r\n\r\n\ @author\ (Oats)\r\n\ @version\ (10/31)\r\n
+comment1.params=
+comment1.target=StudentList()
+comment2.params=fullName
+comment2.target=void\ addStudentToList(java.util.ArrayList)
+comment3.params=
+comment3.target=void\ printStudentList()
+comment4.params=
+comment4.target=void\ main()
+numComments=5

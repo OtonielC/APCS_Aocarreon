@@ -9,9 +9,9 @@ public class StudentList
 {
     ArrayList<Student> studlist = new ArrayList<Student>();
     public StudentList(){
+
         
-        
-        addStudentToList(String fullName);
+        addStudentToList(studlist);
         // delete();
         // edit();
         printStudentList();
@@ -20,7 +20,7 @@ public class StudentList
         
     }
     
-    public void addStudentToList(String fullName){
+    public void addStudentToList(ArrayList<Student> fullName){
         
     }
     
@@ -45,6 +45,6 @@ public class StudentList
     // }
     
     public static void main(){
-        StudList studlist = new StudList();
+        StudentList studlist = new StudentList();
     }
 }
