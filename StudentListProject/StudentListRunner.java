@@ -1,17 +1,22 @@
-import java.util.*;
+
 /**
- * Write a description of class StudentListRunner here.
+ * Runs the Student List
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Oats)
+ * @version (11/14)
  */
+import java.util.*;
 public class StudentListRunner
 {
-    public static void main(){
+    StudentList studentlist = new StudentList();
+    //int stuNumber;
+    //int gpa;
+    //String fullName;
+    public void StudentListRunner(){
         mainMenu();
     }
 
-    public static void mainMenu(){
+    public void mainMenu(){
         Scanner kb = new Scanner(System.in);
         String inputStr = "";
         while(!inputStr.equals("9")){
@@ -27,13 +32,30 @@ public class StudentListRunner
             System.out.println("9 QUITS PROJECT");
             inputStr = kb.nextLine();
             if(inputStr.equals("1")){
+                
+                
                 System.out.println("Please type in the student number:");
-                if(inputStr.equals()
+                inputStr = kb.nextLine();
+                int stuNumber = Integer.parseInt(inputStr);
+                System.out.println("Please type in the gpa:");
+                inputStr = kb.nextLine();
+                double gpa = Integer.parseInt(inputStr);
+                System.out.println("Please type in the student name:");
+                inputStr = kb.nextLine();
+                String fullName = inputStr;
+                
+                studentlist.addStudentToList(stuNumber, gpa, fullName);
+                
+                
             }
             if(inputStr.equals("9")){
                 System.out.println("");
                 System.out.println("THANKS FOR USING MY PROGRAM");
             }
         }
+    }
+    
+    public static void main(){
+        StudentListRunner slr = new StudentListRunner();
     }
 }

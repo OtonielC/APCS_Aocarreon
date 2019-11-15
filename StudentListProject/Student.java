@@ -10,8 +10,20 @@ public class Student
     String fName;
     String mName;
     String lName;
+    String fullName;
     int stuNumber;
     double gpa;
+    
+    public void Student(int sn, double gpa, String name){
+        gpa = gpa;
+        stuNumber = sn;
+        fullName = name;
+        
+    }
+    
+    public String getfullName(){
+        return fullName;
+    }
     
     public String getfName(){
         return fName;
