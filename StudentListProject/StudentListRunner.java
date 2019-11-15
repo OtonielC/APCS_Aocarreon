@@ -26,6 +26,10 @@ public class StudentListRunner
             System.out.println("8 SEARCHES STUDENTS BY FILTER");
             System.out.println("9 QUITS PROJECT");
             inputStr = kb.nextLine();
+            if(inputStr.equals("1")){
+                System.out.println("Please type in the student number:");
+                if(inputStr.equals()
+            }
             if(inputStr.equals("9")){
                 System.out.println("");
                 System.out.println("THANKS FOR USING MY PROGRAM");
