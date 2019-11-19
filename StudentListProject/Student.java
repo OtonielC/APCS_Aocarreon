@@ -14,12 +14,48 @@ public class Student
     int stuNumber;
     double gpa;
     
-    public void Student(int sn, double gpa, String name){
+    public Student(int sn, double gpa, String name){
         gpa = gpa;
         stuNumber = sn;
         fullName = name;
         
     }
+    
+    public void parseName(String fullName){
+        if(fullName.indexOf(",") != -1){
+            int s1 = fullName.indexOf(",");
+            lName = fullName.substring(0, s1);
+            if(fullName.indexOf(" ") != fullName.lastIndexOf(" ")){
+                int s2 = fullName.indexOf(" ");
+                int s3 = fullName.lastIndexOf(" ");
+                fName = fullName.substring(s2, s3);
+                int s4 = fullName.lastIndexOf(" ");
+                mName = fullName.substring(s4 +1);
+            }
+            else{
+                int s2 = fullName.indexOf(" ");
+                int s3 = fullName.lastIndexOf(" ");
+                fName = fullName.substring(s2, s3);
+            }
+            System.out.print(fName + " " + mName + " " + lName + ".");
+        }
+        if(fullName.indexOf(",") == -1){
+            int s1 = fullName.indexOf(" ");
+            fName = fullName.substring(0,s1);
+            if(fullName.indexOf(" ") != fullName.lastIndexOf(" ")){
+                int s2 = fullName.lastIndexOf(" ");
+                mName = fullName.substring(s1, s2);
+                int s3 = fullName.lastIndexOf(" ");
+                lName = fullName.substring(s3);
+                System.out.print(fName + " " + mName + " " + lName + ".");
+            }
+            else{
+                int s2 = fullName.lastIndexOf(" ");
+                lName = fullName.substring(s2);   
+                System.out.print(fName + " " + lName + ".");
+            }
+        }
+    }    
     
     public String getfullName(){
         return fullName;

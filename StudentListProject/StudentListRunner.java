@@ -9,9 +9,6 @@ import java.util.*;
 public class StudentListRunner
 {
     StudentList studentlist = new StudentList();
-    //int stuNumber;
-    //int gpa;
-    //String fullName;
     public void StudentListRunner(){
         mainMenu();
     }
@@ -32,8 +29,7 @@ public class StudentListRunner
             System.out.println("9 QUITS PROJECT");
             inputStr = kb.nextLine();
             if(inputStr.equals("1")){
-                
-                
+
                 System.out.println("Please type in the student number:");
                 inputStr = kb.nextLine();
                 int stuNumber = Integer.parseInt(inputStr);
@@ -43,18 +39,38 @@ public class StudentListRunner
                 System.out.println("Please type in the student name:");
                 inputStr = kb.nextLine();
                 String fullName = inputStr;
-                
+
                 studentlist.addStudentToList(stuNumber, gpa, fullName);
-                
-                
+
             }
+            // else if(inputStr.equals("2")){
+                
+            // }
+            // else if(inputStr.equals("3")){
+                
+            // }
+            // else if(inputStr.equals("4")){
+                
+            // }
+            // else if(inputStr.equals("5")){
+                
+            // }
+            // else if(inputStr.equals("6")){
+                
+            // }
+            // else if(inputStr.equals("7")){
+                
+            // }
+            // else if(inputStr.equals("8")){
+                
+            // }
             if(inputStr.equals("9")){
                 System.out.println("");
                 System.out.println("THANKS FOR USING MY PROGRAM");
             }
         }
     }
-    
+
     public static void main(){
         StudentListRunner slr = new StudentListRunner();
     }

@@ -8,8 +8,9 @@ import java.util.*;
 public class StudentList
 {
     ArrayList<Student> studList = new ArrayList<Student>();
+    
     public StudentList(){
-        StudentList studlist = new StudentList();
+        StudentList studentlist = new StudentList();
     }
     
     public void addStudentToList(int stuNum, double gpa, String fullName){
@@ -40,5 +41,10 @@ public class StudentList
     // public void clear(){
         
     // }
+    
+    
+    
+    
+    
     
 }
