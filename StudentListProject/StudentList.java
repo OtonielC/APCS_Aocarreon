@@ -10,7 +10,7 @@ public class StudentList
     ArrayList<Student> studList = new ArrayList<Student>();
     
     public StudentList(){
-        StudentList studentlist = new StudentList();
+        
     }
     
     public void addStudentToList(int stuNum, double gpa, String fullName){
@@ -26,11 +26,13 @@ public class StudentList
         
     // }
     
-    // public void printStudentList(String lastName){
-        
-    // }
+    public void printList(){
+        for(int i = 0; i < studList.size(); i++){
+            System.out.println("The student's Name is" + studList.get(i));
+        }
+     }
     
-    // public void printStudentList(int stuNumber){
+    // public void printStudent(int stuNumber){
         
     // }
     

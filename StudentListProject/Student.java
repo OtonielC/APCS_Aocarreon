@@ -18,7 +18,7 @@ public class Student
         gpa = gpa;
         stuNumber = sn;
         fullName = name;
-        
+        parseName(name);
     }
     
     public void parseName(String fullName){

@@ -9,7 +9,7 @@ import java.util.*;
 public class StudentListRunner
 {
     StudentList studentlist = new StudentList();
-    public void StudentListRunner(){
+    public StudentListRunner(){
         mainMenu();
     }
 
@@ -52,9 +52,9 @@ public class StudentListRunner
             // else if(inputStr.equals("4")){
                 
             // }
-            // else if(inputStr.equals("5")){
-                
-            // }
+            else if(inputStr.equals("5")){
+                studentlist.printList();
+            }
             // else if(inputStr.equals("6")){
                 
             // }
