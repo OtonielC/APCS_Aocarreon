@@ -3,16 +3,25 @@ public class IntArrayWorker
     /** two dimensional matrix */
     private int[][] matrix = null;
     
+    public int getColTotal(int x){
+        int total = 0;
+        for(int i = 0; i < matrix.length; i++){
+            total += matrix[i][x];
+        }
+        return total;
+    }
+    
     public int getLargest(){
-        int value = 0;
+        int maxValue = matrix[0][0];
         
-        for(int i = 0; i < matrix.length; i ++){
+        for(int i = 0; i < matrix.length; i++){
             for(int j = 0; j < matrix[i].length; j++){
-                if(matrix[i][j] > matrix[i+1][j+1]){
-                    value = matrix[i+1][j+1];
+                if(matrix[i][j] > maxValue){
+                    maxValue = matrix[i][j];
                 }
             }
         }
+        return maxValue;
     }
 
     public int getCount(int n){
