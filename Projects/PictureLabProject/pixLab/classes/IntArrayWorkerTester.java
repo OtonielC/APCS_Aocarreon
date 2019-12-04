@@ -1,6 +1,14 @@
 public class IntArrayWorkerTester
 {
     /** method to test setMatrix */
+    
+    
+    public static void testLoadEvensOdds(){
+        IntArrayWorker worker = new IntArrayWorker();
+        int[][] nums = new int[4][4];
+        worker.loadEvensOdds(nums);
+    }
+    
     public static void testSetMatrix()
     {
         IntArrayWorker worker = new IntArrayWorker();
@@ -91,6 +99,8 @@ public class IntArrayWorkerTester
        System.out.println("Total for column 2 should be 9 and is " + total);
      }
 
+     
+     
     public static void main(String[] args)
     {
         testSetMatrix();

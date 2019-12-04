@@ -1,7 +1,24 @@
 public class IntArrayWorker
 {
     /** two dimensional matrix */
-    private int[][] matrix = null;
+    private int[][] matrix = new int[6][6];
+    
+        public int[][] loadEvensOdds(int[][] matrix){
+        int num = 0;
+        for(int i = 0; i < matrix.length; i++){
+            for(int j = 0; j < matrix[i].length; j++){
+                //num = (int)((Math.random()*9)+1);
+                
+                if(j < matrix[i].length/2){
+                    matrix[i][j] = 2;
+                }
+                else{
+                    matrix[i][j] = 3;
+                }
+            }
+        }
+        return matrix;
+    }
     
     public int getColTotal(int x){
         int total = 0;
