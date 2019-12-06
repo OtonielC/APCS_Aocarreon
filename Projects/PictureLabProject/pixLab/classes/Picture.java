@@ -71,6 +71,18 @@ public class Picture extends SimplePicture
 
     ////////////////////// methods ///////////////////////////////////////
 
+    public void fixUnderwater()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        for (Pixel[] rowArray : pixels)
+        {
+            for (Pixel pixelObj : rowArray)
+            {
+                
+            }
+        }
+    }
+    
     /**
      * Method to return a string with information about this picture.
      * @return a string with information about the picture such as fileName,
@@ -135,7 +147,23 @@ public class Picture extends SimplePicture
             }
         }
     }
-
+    
+    public void grayScale()
+    {
+        Pixel[][] pixels = this.getPixels2D();
+        int avg;
+        for (Pixel[] rowArray : pixels)
+        {
+            for (Pixel pixelObj : rowArray)
+            {
+                avg = (pixelObj.getRed()+pixelObj.getBlue() + pixelObj.getGreen())/3;
+                pixelObj.setRed(avg);
+                pixelObj.setGreen(avg);
+                pixelObj.setBlue(avg);
+            }
+        }
+    }
+    
     /** Method that mirrors the picture around a 
      * vertical mirror in the center of the picture
      * from left to right */
@@ -259,7 +287,7 @@ public class Picture extends SimplePicture
      */
     public static void main(String[] args) 
     {
-        Picture beach = new Picture("beach.jpg");
+        Picture beach = new Picture("water.jpg");
         beach.explore();
         beach.zeroBlue();
         beach.explore();

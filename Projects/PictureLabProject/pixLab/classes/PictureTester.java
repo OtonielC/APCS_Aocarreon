@@ -9,7 +9,14 @@
 public class PictureTester
 {
     /** Method to test zeroBlue */
-
+    
+    public static void testGrayScale(){
+        Picture beach = new Picture("beach.jpg");
+        beach.explore();
+        beach.grayScale();
+        beach.explore();
+    }
+    
     public static void testNegate(){
         Picture beach = new Picture("beach.jpg");
         beach.explore();
@@ -80,7 +87,7 @@ public class PictureTester
         //testKeepOnlyRed();
         //testKeepOnlyGreen();
         testNegate();
-        //testGrayscale();
+        testGrayScale();
         //testFixUnderwater();
         //testMirrorVertical();
         //testMirrorTemple();
