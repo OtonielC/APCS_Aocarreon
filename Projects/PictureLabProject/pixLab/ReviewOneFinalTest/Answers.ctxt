@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Answers
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Answers\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Answers()
+comment2.params=
+comment2.target=int\ test()
+comment3.params=
+comment3.target=void\ main()
+numComments=4

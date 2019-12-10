@@ -74,11 +74,13 @@ public class Picture extends SimplePicture
     public void fixUnderwater()
     {
         Pixel[][] pixels = this.getPixels2D();
+        Color maxColor = maxColor();
+        Color minColor = minColor();
         for (Pixel[] rowArray : pixels)
         {
             for (Pixel pixelObj : rowArray)
             {
-                
+                double blueFraction = ((double)(pixelObj.getBlue() - minColor.getBlue()))/(maxColor.getblue() - minColor.getBlue());
             }
         }
     }
