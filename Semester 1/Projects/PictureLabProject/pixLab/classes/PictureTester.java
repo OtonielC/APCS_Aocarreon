@@ -1,3 +1,5 @@
+package classes;
+
 /**
  * This class contains class (static) methods
  * that will help you test the Picture class 
@@ -9,6 +11,8 @@
 public class PictureTester
 {
     /** Method to test zeroBlue */
+    
+
     
     public static void testGrayScale(){
         Picture beach = new Picture("beach.jpg");
@@ -70,9 +74,9 @@ public class PictureTester
     /** Method to test edgeDetection */
     public static void testEdgeDetection()
     {
-        Picture swan = new Picture("swan.jpg");
-        swan.edgeDetection(10);
-        swan.explore();
+        Picture download = new Picture("download.jpg");
+        download.edgeDetection(10);
+        download.explore();
     }
 
     /** Main method for testing.  Every class can have a main
@@ -96,7 +100,7 @@ public class PictureTester
         //testMirrorDiagonal();
         //testCollage();
         //testCopy();
-        //testEdgeDetection();
+        testEdgeDetection();
         //testEdgeDetection2();
         //testChromakey();
         //testEncodeAndDecode();

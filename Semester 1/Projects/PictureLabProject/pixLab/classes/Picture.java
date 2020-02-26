@@ -1,3 +1,5 @@
+package classes;
+
 import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
@@ -71,20 +73,22 @@ public class Picture extends SimplePicture
 
     ////////////////////// methods ///////////////////////////////////////
 
+
+
     public void fixUnderwater()
     {
-        Pixel[][] pixels = this.getPixels2D();
-        Color maxColor = maxColor();
-        Color minColor = minColor();
-        for (Pixel[] rowArray : pixels)
-        {
-            for (Pixel pixelObj : rowArray)
-            {
-                double blueFraction = ((double)(pixelObj.getBlue() - minColor.getBlue()))/(maxColor.getblue() - minColor.getBlue());
-            }
-        }
+        // Pixel[][] pixels = this.getPixels2D();
+        // Color maxColor = maxColor();
+        // Color minColor = minColor();
+        // for (Pixel[] rowArray : pixels)
+        // {
+        // for (Pixel pixelObj : rowArray)
+        // {
+        // double blueFraction = ((double)(pixelObj.getBlue() - minColor.getBlue()))/(maxColor.getblue() - minColor.getBlue());
+        // }
+        // }
     }
-    
+
     /**
      * Method to return a string with information about this picture.
      * @return a string with information about the picture such as fileName,
@@ -149,7 +153,7 @@ public class Picture extends SimplePicture
             }
         }
     }
-    
+
     public void grayScale()
     {
         Pixel[][] pixels = this.getPixels2D();
@@ -165,7 +169,7 @@ public class Picture extends SimplePicture
             }
         }
     }
-    
+
     /** Method that mirrors the picture around a 
      * vertical mirror in the center of the picture
      * from left to right */
@@ -291,8 +295,8 @@ public class Picture extends SimplePicture
     {
         Picture beach = new Picture("water.jpg");
         beach.explore();
-        beach.zeroBlue();
-        beach.explore();
-    }
+beach.zeroBlue();
+beach.explore();
+}
 
 } // this } is the end of class Picture, put all new methods before this
