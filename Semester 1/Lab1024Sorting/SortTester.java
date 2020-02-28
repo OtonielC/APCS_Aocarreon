@@ -81,8 +81,10 @@ public class SortTester
     }
     
     //---------------------------------------------------------------------------
-    
+
+    int[] bob = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     public void mergeSort(int[] a, int n){
+        a = bob;
         if(n < 2) {return;} // Base Case
         int mid = n/2;
         int[] l = new int[mid];
